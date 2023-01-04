@@ -4,12 +4,255 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4fab179ba8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Hello world</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg" id="header-koala">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-1 mb-2 mb-lg-0">
+                        <span class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="images/Dropdown.png" alt="dropdown">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <a class="navbar-brand me-0 me-5" href="#"> <img src="images/Vector.png" alt="koala logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <form class="m-auto d-block" role="search">
+                        <input class="form-control me-2" id="search-button-header" type="search"
+                            placeholder="Search for product" aria-label="Search">
+                    </form>
+                    <a href="#" class="header-links">How it works</a>
+                    <a href="#" class="header-links">Sing in</a>
+                    <button id="count-button-header">0</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="first-block">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="images/IMAGE.png" alt="koala founder" id="founder-img">
+                </div>
+                <div class="col" id="desc-founder">
+                    <h1>Pet medication made easy.</h1>
+                    <p>Koala has all the medications and health products your pet needs. We package them by date and
+                        time to
+                        make
+                        pet care
+                        simpler. The best part? There are no service or shipping fees — you only pay for what your
+                        pet needs.
+                    </p>
+                    <button>Shop for your pet →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-block-will">
+        <div class="container">
+            <div class="row">
+                <div class="col we-will">
+                    <p>All their meds, <br> sorted and <br> delivered. We will:</p>
+                    <ul>
+                        <li>
+                            <button id="green-button">1</button> Verify & fetch
+                        </li>
+                        <li>
+                            <button>2</button> Sort & package
+                        </li>
+                        <li>
+                            <button>3</button> Deliver and refill
+                        </li>
+                        <li>
+                            <a href="#">See how it works</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-7">
+                    <img src="images/IMAGE.second.block.png" alt="pils">
+                </div>
+            </div>
+        </div>
+        <h2>Get started.</h2>
+    </div>
+
+    <div id="third-block">
+        <h2>Shop trusted products.</h2>
+        <p>Vet-approved meds, supplements and health products. Sorted and delivered for free.
+        </p>
+        <button id="show-all-button">Show all products →</button>
+        <div class="container">
+            <div class="row" id="catalog-third-block">
+                <div class="col">
+                    <img src="images/IMAGE (4).png" alt="Simparica TRIO for Dogs">
+                    <h2>Simparica TRIO for Dogs</h2>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-3"> <button>Heartworm</button> </div>
+                            <div class="col"> <button>Flea & Tick</button> </div>
+                        </div>
+                    </div>
+                    <div class="col"><button>Dewormers & Parasiticides</button></div>
+                    <p>A monthly oral medication that prevents heartworm disease, treats and controls
+                        certain
+                        intestinal parasites, and
+                        prevents and treats flea and tick infestations.</p>
+                    <p><b>This item requires a prescription</b></p>
+                </div>
+                <div class="col">
+                    <img src="images/IMAGE (1).png" alt="Apoquel">
+                    <h2>Apoquel</h2>
+                    <button>Apoquel's categories are</button>
+                    <p>Oclacitinib (Apoquel) is used to relieve itching due to a variety of causes including allergy.
+                    </p>
+                    <p><b>This item requires a prescription</b></p>
+                </div>
+                <div class="col">
+                    <img src="images/IMAGE (2).png" alt="Rimadyl">
+                    <h2>Apoquel</h2>
+                    <button>Rimadyl's categories are</button>
+                    <p>Carprofen (Rimadyl) is a non-steroidal anti-inflammatory drug (NSAID) used to treat arthritic and
+                        post-operative pain
+                        and inflammation.</p>
+                    <p><b>This item requires a prescription</b></p>
+                </div>
+                <div class="col">
+                    <img src="images/IMAGE (3).png" alt="Purina Pro Plan FortiFlora Probiotic">
+                    <h2>Purina Pro Plan FortiFlora Probiotic</h2>
+                    <button>Vitamins & Supplements</button>
+                    <p>Probiotics supply "good" bacteria to the gut and promote overall digestive health.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="green-block">
+        <div class="container pet-story-container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <img src="images/pet.png" alt="dog care">
+                    <div>
+                        <a href="#">View Josie's care box</a> <button class="green-block-pet-button">→</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="images/pet2.png" alt="dog care">
+                    <div>
+                        <a href="#">View Elijah's care box</a> <button class="green-block-pet-button">→</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center"> </div>
+            <h2> Join our community <br>of happy pets.</h2>
+            <div class="d-flex justify-content-center">
+                <button id="green-middle-button">Shop for your pet →</button>
+            </div>
+
+            <div class="row justify-content-between">
+                <div class="col-4 mt-5">
+                    <img src="images/pet3.png" alt="cat care">
+                    <div>
+                        <a href="#">View Waffles's care box</a> <button class="green-block-pet-button">→</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="images/pet4.png" alt="dog care">
+                    <div>
+                        <a href="#">View Liliana's care box</a> <button class="green-block-pet-button">→</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map-block">
+        <h2>Coming soon to <br>your state.</h2>
+        <p>Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii,
+            Idaho,
+            Illinois, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota,
+            Mississippi, Missouri,
+            Montana, Nebraska, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Oklahoma,
+            Oregon,
+            Pennsylvania, Rhode Island, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West
+            Virginia, and
+            Wyoming <br>Sign up to be notified when we’re in your area.</p>
+        <button>Notify me</button>
+        <img src="images/Frame.png" alt="map">
+    </div>
+    <footer>
+        <div class="container text-left" id="footer-links">
+            <div class="row justify-content-start">
+                <div class="col-2 footer-contact">
+                    <h5>Contact</h5>
+                    <div> <a href="mailto:hello@koala.health">hello@koala.health</a></div>
+                    <a href="tel:(866) 445-6252">(866) 445-6252</a>
+                    <p>179 South Street <br>Suite 100 <br>Boston, MA 02111</p>
+                </div>
+                <div class="col-2 footer-faq">
+                    <div><a href="#">Company</a></div>
+                    <div><a href="#">How It Works</a></div>
+                    <div> <a href="#">Careers</a></div>
+                    <div> <a href="#">FAQ</a></div>
+                </div>
+                <div class="col-2 footer-policy">
+                    <div> <a href="#">Legal</a></div>
+                    <div><a href="#">Terms of Use</a></div>
+                    <div><a href="#">Privacy Notice</a></div>
+                    <div> <a href="#">Auto-Refill Terms of Use</a></div>
+                    <div><a href="#">Billing and Returns Policy</a></div>
+                    <div><a href="#">State Notices</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col media-logo">
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <div>
+                        <h3>Legal</h3>
+                    </div>
+                </div>
+                <div class="col img-footer-logo">
+                    <img src="images/logo-footer.png" alt="logo koala">
+                </div>
+                <div class="col img-footer-logo" id="logo-foot">
+                    <img src="images/Vector2.png" alt="koala logo">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
