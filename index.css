@@ -2,6 +2,24 @@
     --second-font: 'Open Sans', sans-serif;
 }
 
+#bb-f{
+    width: 20px;
+    padding-right: 5px;
+}
+.navbar-toggler{
+    border: none;
+}
+.when-min-head{
+background-color: #C9C6BC;
+width: 100px;
+
+}
+.when-min-head a{
+    color: white;
+}
+#bb-g{
+    width: 60px;
+}
 #pre-project{
     text-align:center ;
 }
@@ -298,3 +316,151 @@ color: #0E2D22;
 #logo-foot img{
     margin-right: 0px;
 }
+.gr-img-mr{
+display: block;
+margin: 0 auto;
+text-align:center;
+}
+
+#cat-care{
+    margin-top: 50px;
+}
+
+@media (max-width:900px){
+    #founder-img{
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    #desc-founder {
+        padding: 20px;
+    }
+    #desc-founder h1{
+        font-size: 34px;
+        text-align: center;
+    }
+#desc-founder button{
+    margin: 0 auto;
+    display: block;
+}
+.second-block-will{
+    padding-top: 10px;
+}
+.we-will {
+    padding: 15px;
+}
+.we-will p{
+    font-size: 34px;
+    text-align: left;
+}
+.we-will li{
+    padding-top: 20px;
+}
+.second-block-will img{
+    width: 300px;
+}
+.second-block-will h2{
+    padding-top: 30px;
+    font-size: 25px;
+}
+#third-block h2{
+font-size: 25px;
+margin-top: -25px;
+}
+#show-all-button{
+    margin-top: 20px;
+}
+#catalog-third-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#catalog-third-block img{
+display: block;
+margin: 0 auto;
+margin-top: 30px;
+}
+#catalog-third-block h2{
+    text-align: center;
+    margin-top:10px ;
+}
+#green-block{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.pet-story-container .justify-content-between{
+ padding: 5px;
+ display: inline;
+}
+.pet-story-container img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.pet-story-container a{
+margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.green-block-pet-button{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+}
+#green-block h2{
+    font-size: 24px;
+    margin: 0px;
+}
+#green-middle-button{
+    font-size: 12px;
+width: 151px;
+height: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#cat-care{
+    margin-top: 10px;
+}
+.map-block h2{
+    padding-top: 20px;
+    font-size: 32px;
+}
+.map-block p{
+   margin-top: 5px;
+   padding: 10px;
+   font-size: 14px;
+}
+.map-block button{
+    margin-top: 10px;
+}
+.map-block img{
+    width: 300px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+}
+#foot-media{
+   display: flex;
+   column-count: 3;
+
+}
+.footer-contact{
+display: block;
+width: 100px;
+margin-left: 15px;
+margin-right: 0px;
+}
+.footer-faq{
+display: block;
+margin: 0 auto;
+}
+.footer-policy{
+display: block;
+margin-right: 15px;
+}
+#logo-foot img{
+ width: 75px;
+}
+}
+
+
+
+

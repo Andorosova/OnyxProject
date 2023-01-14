@@ -21,20 +21,41 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg" id="header-koala">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container d-block">
+
+                <button class="navbar-toggler pt-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img src="images/Dropdown.png" alt="dropdown" id="bb-f"><img src="images/Vector.png"
+                            alt="koala logo" id="bb-g"></span>
+                </button>
+                <ul class="nav ms-0 d-xxl-none d-xl-none d-lg-none when-min-head" id="navbarSupportedContent">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sing in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Catalog</a>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse">
                     <div class="navbar-nav me-1 mb-2 mb-lg-0">
                         <span class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="images/Dropdown.png" alt="dropdown">
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Catalog</a></li>
+                                <li><a class="dropdown-item" href="#">Delivery</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Contact us</a></li>
                             </ul>
                         </span>
                     </div>
@@ -52,9 +73,14 @@
                     <a href="#" class="header-links">How it works</a>
                     <a href="#" class="header-links">Sing in</a>
                     <button id="count-button-header">0</button>
+
                 </div>
+
             </div>
         </nav>
+
+
+
     </header>
     <div id="first-block">
         <div class="container">
@@ -137,7 +163,7 @@
                 </div>
                 <div class="col">
                     <img src="images/IMAGE (2).png" alt="Rimadyl">
-                    <h2>Apoquel</h2>
+                    <h2>Rimadyl</h2>
                     <button>Rimadyl's categories are</button>
                     <p>Carprofen (Rimadyl) is a non-steroidal anti-inflammatory drug (NSAID) used to treat arthritic and
                         post-operative pain
@@ -159,16 +185,17 @@
     <div id="green-block">
         <div class="container pet-story-container">
             <div class="row justify-content-between">
-                <div class="col-4">
+                <div class="col">
                     <img src="images/pet.png" alt="dog care">
                     <div>
                         <a href="#">View Josie's care box</a> <button class="green-block-pet-button">→</button>
                     </div>
                 </div>
-                <div class="col-4">
-                    <img src="images/pet2.png" alt="dog care">
-                    <div>
-                        <a href="#">View Elijah's care box</a> <button class="green-block-pet-button">→</button>
+                <div class="col">
+                    <img src="images/pet2.png" alt="dog care" class="gr-img-mr">
+                    <div class="gr-img-mr">
+                        <a href="#">View Elijah's care box</a>
+                        <button class="green-block-pet-button">→</button>
                     </div>
                 </div>
             </div>
@@ -179,16 +206,18 @@
             </div>
 
             <div class="row justify-content-between">
-                <div class="col-4 mt-5">
+                <div class="col" id="cat-care">
                     <img src="images/pet3.png" alt="cat care">
                     <div>
-                        <a href="#">View Waffles's care box</a> <button class="green-block-pet-button">→</button>
+                        <a href="#">View Waffles's care box</a>
+                        <button class="green-block-pet-button">→</button>
                     </div>
                 </div>
-                <div class="col-4">
-                    <img src="images/pet4.png" alt="dog care">
-                    <div>
-                        <a href="#">View Liliana's care box</a> <button class="green-block-pet-button">→</button>
+                <div class="col">
+                    <img src="images/pet4.png" alt="dog care" class="gr-img-mr">
+                    <div class="gr-img-mr">
+                        <a href="#">View Liliana's care box</a>
+                        <button class="green-block-pet-button">→</button>
                     </div>
                 </div>
             </div>
@@ -210,9 +239,10 @@
     </div>
     <footer>
         <div class="container text-left" id="footer-links">
-            <div class="row justify-content-start">
+            <div class="row justify-content-start" id="foot-media">
                 <div class="col-2 footer-contact">
                     <h5>Contact</h5>
+
                     <div> <a href="mailto:hello@koala.health">hello@koala.health</a></div>
                     <a href="tel:(866) 445-6252">(866) 445-6252</a>
                     <p>179 South Street <br>Suite 100 <br>Boston, MA 02111</p>
