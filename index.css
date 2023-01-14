@@ -1,7 +1,33 @@
 :root{
     --second-font: 'Open Sans', sans-serif;
 }
-
+#proj-name{
+    text-align: center;
+    padding: 50px;
+    background-color: #0E2D22;
+    color: #EBE8DE;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+#proj-description{
+    margin-top: 0px;
+    background-color:#EBE8DE;
+    color: #0E2D22;
+    margin-bottom: 0px;
+padding: 40px;
+font-size: 16px;
+text-align: center;
+}
+#creator{
+background-color: #0E2D22;
+color: #F4F1ED;
+padding: 25px;
+cursor:default;
+display: block;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 #bb-f{
     width: 20px;
     padding-right: 5px;
